@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.apartment-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.society-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    font-size: 18px;
+    color: #1565c0;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
